@@ -8,10 +8,14 @@ body {
 section {
     display: inline-block;
     max-width: 1126px;
-    height: 100%;
     padding: 10px; 
 }
 
+.second__section {
+    max-width: 100%; 
+    display: flex; 
+    flex-wrap: wrap;
+}
 .layout__example {
     display: flex;
     flex-wrap: wrap;
