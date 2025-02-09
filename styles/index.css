@@ -6,6 +6,12 @@ body {
     padding-right: 145px;
 }
 
+section {
+    display: inline-block;
+    max-width: 1126px;
+    
+}
+
 header {
     width: 1126px;
     height: 78px;
@@ -34,6 +40,14 @@ header {
 .header__button {
     display:flex;
     width: 30%;
+}
+
+.menu {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    word-spacing: 5px;
 }
 
 .menu-button-right {
@@ -143,10 +157,6 @@ header {
     border: none;
 }
 
-section {
-    display: inline-block;
-}
-
 .poppins-regular {
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -178,23 +188,83 @@ section {
     font-size: 36px;
     text-align: center;
     color: #2F281E;
-  }
+    
+}
 
   .container {
     position: relative;
     width: 2000px;
     height: 204px;
     padding: 5px;
-    display: flex
-    
-;
+    display: flex;
 }
 .card {
-   
     min-width: 240px;
     min-height: 178px;
     margin: 10px;
     justify-content: center;
     align-items: center;
     flex-basis: 180px;
+}
+
+.card-info {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16;
+    margin-top: 13px;
+}
+
+.card-heading {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 13;
+}
+
+.section-title {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    max-width: 495px;
+    width: 100%;
+    font-size: 36px;
+    line-height: 54px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 22px;
+}
+
+.section-info {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16;
+    max-width: 458px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.section-heading {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16;
+    margin-bottom: 12px;
+}
+
+.section-subheading {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16;
+    padding: 0px;
+    margin-bottom: 3px;
+    margin-top: 210px;
 }
